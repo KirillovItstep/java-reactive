@@ -12,6 +12,9 @@
         <module name="websocket" />
         <module name="spring-reactor" />
         <module name="actor" />
+        <module name="thymeleaf" />
+        <module name="quote" />
+        <module name="mvc-thymeleaf" />
         <module name="session" />
       </profile>
     </annotationProcessing>
@@ -24,8 +27,11 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="actor" options="-parameters" />
       <module name="foo" options="-parameters" />
+      <module name="mvc-thymeleaf" options="-parameters" />
+      <module name="quote" options="-parameters" />
       <module name="session" options="-parameters" />
       <module name="spring-reactor" options="-parameters" />
+      <module name="thymeleaf" options="-parameters" />
       <module name="websocket" options="-parameters" />
     </option>
   </component>
