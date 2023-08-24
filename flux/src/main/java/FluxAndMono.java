@@ -19,7 +19,7 @@ public class FluxAndMono {
         //Вывод в консоль, включив подписчика
         //fluxFromIter.subscribe(System.out::println);
 
-        //infGenerate();
+        infGenerate();
 
         //finGenerate();
     }
